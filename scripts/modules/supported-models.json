@@ -1,0 +1,149 @@
+{
+	"ollama": [
+		{
+			"id": "devstral:latest",
+			"swe_score": 0,
+			"cost_per_1m_tokens": { "input": 0, "output": 0 },
+			"allowed_roles": ["main", "fallback"],
+			"max_tokens": 8192,
+			"supportsFunctionCalling": true,
+			"description": "Local model optimized for software engineering tasks"
+		},
+		{
+			"id": "qwen3:latest",
+			"swe_score": 0,
+			"cost_per_1m_tokens": { "input": 0, "output": 0 },
+			"allowed_roles": ["main", "fallback"],
+			"max_tokens": 8192,
+			"supportsFunctionCalling": true,
+			"description": "Local reasoning and dialogue model"
+		},
+		{
+			"id": "qwen3:14b",
+			"swe_score": 0,
+			"cost_per_1m_tokens": { "input": 0, "output": 0 },
+			"allowed_roles": ["main", "fallback"],
+			"max_tokens": 8192,
+			"supportsFunctionCalling": true,
+			"description": "Local 14B parameter model for complex reasoning"
+		},
+		{
+			"id": "qwen3:32b",
+			"swe_score": 0,
+			"cost_per_1m_tokens": { "input": 0, "output": 0 },
+			"allowed_roles": ["main", "fallback"],
+			"max_tokens": 8192,
+			"supportsFunctionCalling": true,
+			"description": "Local 32B parameter model for advanced reasoning"
+		},
+		{
+			"id": "mistral-small3.1:latest",
+			"swe_score": 0,
+			"cost_per_1m_tokens": { "input": 0, "output": 0 },
+			"allowed_roles": ["main", "fallback"],
+			"max_tokens": 8192,
+			"supportsFunctionCalling": true,
+			"description": "Local Mistral model for instruction following"
+		},
+		{
+			"id": "llama3.3:latest",
+			"swe_score": 0,
+			"cost_per_1m_tokens": { "input": 0, "output": 0 },
+			"allowed_roles": ["main", "fallback"],
+			"max_tokens": 8192,
+			"supportsFunctionCalling": true,
+			"description": "Local Llama model for general tasks"
+		},
+		{
+			"id": "phi4:latest",
+			"swe_score": 0,
+			"cost_per_1m_tokens": { "input": 0, "output": 0 },
+			"allowed_roles": ["main", "fallback"],
+			"max_tokens": 8192,
+			"supportsFunctionCalling": true,
+			"description": "Local compact model optimized for efficiency"
+		}
+	],
+	"openrouter": [
+		{
+			"id": "qwen/qwen3-14b:free",
+			"swe_score": 0,
+			"cost_per_1m_tokens": {
+				"input": 0,
+				"output": 0
+			},
+			"allowed_roles": ["main", "research", "fallback"],
+			"max_tokens": 41000,
+			"supportsFunctionCalling": true,
+			"description": "14.8B parameter model with thinking mode for complex reasoning"
+		},
+		{
+			"id": "qwen/qwen3-30b-a3b:free",
+			"swe_score": 0,
+			"cost_per_1m_tokens": {
+				"input": 0,
+				"output": 0
+			},
+			"allowed_roles": ["main", "research", "fallback"],
+			"max_tokens": 41000,
+			"supportsFunctionCalling": true,
+			"description": "MoE 30B parameter model (3.3B active) with superior reasoning capabilities"
+		},
+		{
+			"id": "qwen/qwen3-8b:free",
+			"swe_score": 0,
+			"cost_per_1m_tokens": {
+				"input": 0,
+				"output": 0
+			},
+			"allowed_roles": ["main", "research", "fallback"],
+			"max_tokens": 41000,
+			"supportsFunctionCalling": true,
+			"description": "8.2B parameter model for reasoning and efficient dialogue"
+		},
+		{
+			"id": "mistralai/devstral-small:free",
+			"swe_score": 0.468,
+			"cost_per_1m_tokens": {
+				"input": 0,
+				"output": 0
+			},
+			"allowed_roles": ["main", "research", "fallback"],
+			"max_tokens": 33000,
+			"supportsFunctionCalling": true,
+			"description": "24B parameter model optimized for software engineering tasks"
+		},
+		{
+			"id": "mistralai/mistral-small-3.2-24b-instruct:free",
+			"swe_score": 0,
+			"cost_per_1m_tokens": {
+				"input": 0,
+				"output": 0
+			},
+			"allowed_roles": ["main", "research", "fallback"],
+			"max_tokens": 80000,
+			"supportsFunctionCalling": true,
+			"description": "24B parameter model optimized for instruction following and function calling"
+		}
+	],
+	"claude-code": [
+		{
+			"id": "opus",
+			"swe_score": 0.725,
+			"cost_per_1m_tokens": { "input": 0, "output": 0 },
+			"allowed_roles": ["main", "fallback", "research"],
+			"max_tokens": 32000,
+			"supportsFunctionCalling": true,
+			"description": "High-performance model for complex reasoning and coding tasks"
+		},
+		{
+			"id": "sonnet",
+			"swe_score": 0.727,
+			"cost_per_1m_tokens": { "input": 0, "output": 0 },
+			"allowed_roles": ["main", "fallback", "research"],
+			"max_tokens": 64000,
+			"supportsFunctionCalling": true,
+			"description": "Top-performing model for instruction following and reasoning"
+		}
+	]
+} 
